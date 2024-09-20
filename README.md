@@ -11,10 +11,10 @@ Este projeto é uma aplicação de lista de tarefas (To-Do List) desenvolvida co
 
 1. **Clone o repositório:**
    ```bash
-   git clone <URL-do-repositório>
+   git clone (https://github.com/Projetos-ResTic/projeto-2.git)
 
 2. **Navegue até o diretório do projeto:**
-cd nome-do-projeto
+    cd ListaDeTarefasAngular
 
 2. **Instale as dependências:**
 npm install
@@ -29,19 +29,41 @@ ng serve
 http://localhost:4200
 
 ## Funcionalidades Principais:
-Adicionar Tarefas: Usuários podem inserir novas tarefas com categoria.
-Listar Tarefas: Todas as tarefas adicionadas são exibidas em uma lista, permitindo fácil visualização.
-Excluir Tarefas: Possibilidade de remover tarefas indesejadas da lista.
-Alternar Conclusão: Usuários podem marcar tarefas como concluídas, ajudando na organização.
+
+-Adicionar Tarefas: Usuários podem inserir novas tarefas com categoria.
+
+-Listar Tarefas: Todas as tarefas adicionadas são exibidas em uma lista, permitindo fácil visualização.
+
+-Excluir Tarefas: Possibilidade de remover tarefas indesejadas da lista.
+
+-Alternar Conclusão: Usuários podem marcar tarefas como concluídas, ajudando na organização.
 
 ## Tecnologias Utilizadas:
-Frontend: Angular, TypeScript, HTML, CSS
-Bibliotecas: Angular Material
-Serviços: HTTP para comunicação com APIs
-Simulação de API: json-server para simular a troca de dados com uma API
+
+-Frontend: Angular, TypeScript, HTML, CSS
+
+-Bibliotecas: Angular Material
+
+-Serviços: HTTP para comunicação com APIs
+
+-Simulação de API: json-server para simular a troca de dados com uma API
 
 ## Possíveis Melhorias Futuras
-Autenticação de Usuário: Implementar um sistema de login para usuários, permitindo que cada um tenha sua própria lista de tarefas.
-Persistência de Dados: Integrar um banco de dados para armazenar as tarefas de forma persistente.
-Filtragem e Busca: Adicionar funcionalidades para filtrar e buscar tarefas específicas.
-Planejamento Semanal: Permitir que os usuários planejem a semana, adicionando tarefas específicas com dia e hora.
+
+-Autenticação de Usuário: Implementar um sistema de login para usuários, permitindo que cada um tenha sua própria lista de tarefas.
+
+-Persistência de Dados: Integrar um banco de dados para armazenar as tarefas de forma persistente.
+
+-Filtragem e Busca: Adicionar funcionalidades para filtrar e buscar tarefas específicas.
+
+-Planejamento Semanal: Permitir que os usuários planejem a semana, adicionando tarefas específicas com dia e hora.
+
+
+
+
+![lista-angular-material1](https://github.com/user-attachments/assets/09394a65-d55f-4e1c-ac65-f1be8c1fc0dc)
+
+![lista-angular-material2](https://github.com/user-attachments/assets/82146316-f7c1-4e9e-a56f-0a97167eea27)
+
+
+
