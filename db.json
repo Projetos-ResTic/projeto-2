@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": "44ad",
+      "tarefa": "treinar",
+      "categoria": "academia",
+      "concluido": true
+    },
+    {
+      "id": "5d6e",
+      "tarefa": "estudar",
+      "categoria": "faculdade",
+      "concluido": false
+    },
+    {
+      "id": "d909",
+      "tarefa": "lavar roupa",
+      "categoria": "casa",
+      "concluido": false
+    }
+  ]
+}

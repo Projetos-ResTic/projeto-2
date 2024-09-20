@@ -1,0 +1,25 @@
+.task{
+    background: #f4f4f4;
+    margin: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.task.raminder{
+    border-left: 5px solid rgb(113, 0, 128);
+}
+
+.task span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+
+  
+
+
+  
+ 

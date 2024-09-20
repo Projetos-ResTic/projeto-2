@@ -1,0 +1,38 @@
+
+@if (mostrarAddTarefa) {
+    <app-button text="fechar" (btnClick)="AlteraVisualizacao(false)">Fechar</app-button>
+}@else {
+    <app-button text="Adicionar" mat-raised-button  (btnClick)="AlteraVisualizacao(true)"></app-button>
+}
+
+<form (ngSubmit)="onSubmit()" *ngIf="mostrarAddTarefa" class="add-form">
+
+    <div class="example-container">
+
+        <mat-form-field >
+          <mat-label>Adicionar</mat-label>
+          <input matInput #input (input)="onInput($event)"
+          type="text" name="text" id="text" [(ngModel)]="tarefa"/>
+        </mat-form-field>
+      
+        <mat-form-field>
+          <mat-label for="categoria">Selecione uma categoria</mat-label>
+          <mat-select name="categoria" id="categoria" [(ngModel)] = "categoria">
+            <mat-option value="casa">casa</mat-option>
+            <mat-option value="trabalho">trabalho</mat-option>
+            <mat-option value="faculdade">faculdade</mat-option>
+            <mat-option value="academia">academia</mat-option>
+            <mat-option value="lazer">lazer</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+      </div>
+
+    <section>
+        <div class="example-button-row">
+          <button mat-flat-button  class="btn btn-block mb-4">Salvar</button>
+        </div>
+    </section>
+</form>
+
+

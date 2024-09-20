@@ -1,0 +1,17 @@
+
+<mat-list class="task"  (dblclick) = "onToggle(tarefa)" [ngClass]="{raminder: tarefa.concluido}" >
+
+    <span matListItemTitle>
+        {{tarefa.tarefa}} 
+
+        <button mat-fab aria-label="Example icon button with a delete icon" (click)="onDelete(tarefa)" >
+        <mat-icon class="btn-delete">delete</mat-icon>
+        </button>
+    </span>
+
+    <p matListItemLine>{{tarefa.categoria}}</p>
+
+</mat-list>
+
+
+
