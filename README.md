@@ -1,27 +1,47 @@
-# ListaDeTarefasAngular
+# Lista de tarefas-Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
 
-## Development server
+## Descrição do Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto é uma aplicação de lista de tarefas (To-Do List) desenvolvida com Angular, que permite aos usuários gerenciar suas tarefas. A aplicação possibilita adicionar, excluir e marcar tarefas como concluídas ao clicar duas vezes sobre a tarefa, e desmarcá-las como concluídas clicando novamente. A interface é intuitiva e responsiva, proporcionando uma experiência de usuário agradável.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instruções para Executar a Aplicação
 
-## Build
+1. **Clone o repositório:**
+   ```bash
+   git clone <URL-do-repositório>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **Navegue até o diretório do projeto:**
+cd nome-do-projeto
 
-## Running unit tests
+2. **Instale as dependências:**
+npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. **Inicie o servidor json-server para simular a API:**
+npx json-server --watch db.json --port 3000
 
-## Running end-to-end tests
+4. **Inicie o servidor de desenvolvimento do Angular:**
+ng serve
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+5. **Acesse a aplicação em:**
+http://localhost:4200
 
-## Further help
+## Funcionalidades Principais:
+Adicionar Tarefas: Usuários podem inserir novas tarefas com categoria.
+Listar Tarefas: Todas as tarefas adicionadas são exibidas em uma lista, permitindo fácil visualização.
+Excluir Tarefas: Possibilidade de remover tarefas indesejadas da lista.
+Alternar Conclusão: Usuários podem marcar tarefas como concluídas, ajudando na organização.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Tecnologias Utilizadas:
+Frontend: Angular, TypeScript, HTML, CSS
+Bibliotecas: Angular Material
+Serviços: HTTP para comunicação com APIs
+Simulação de API: json-server para simular a troca de dados com uma API
+
+## Possíveis Melhorias Futuras
+Autenticação de Usuário: Implementar um sistema de login para usuários, permitindo que cada um tenha sua própria lista de tarefas.
+Persistência de Dados: Integrar um banco de dados para armazenar as tarefas de forma persistente.
+Filtragem e Busca: Adicionar funcionalidades para filtrar e buscar tarefas específicas.
+Planejamento Semanal: Permitir que os usuários planejem a semana, adicionando tarefas específicas com dia e hora.
