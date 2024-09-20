@@ -15,7 +15,8 @@ import {MatButtonModule} from '@angular/material/button';
 })
 export class ButtonComponent {
   @Input() text: string = '';
-  @Input() color: string = '';
+
+  // O EventEmitter 'btnClick' será disparado quando o botão for clicado.
   @Output() btnClick = new EventEmitter();
 
   onClick(){

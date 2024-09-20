@@ -18,6 +18,7 @@ import {MatButtonModule} from '@angular/material/button';
   styleUrl: './task-item.component.css'
 })
 export class TaskItemComponent {
+   // A propriedade 'tarefa' recebe um objeto do tipo 'Tarefa' via binding do componente pai
    @Input() tarefa!:Tarefa;
    @Output() onDeleteTask = new EventEmitter<Tarefa>();
    @Output() onToggleConcluido = new EventEmitter<Tarefa>();
@@ -28,6 +29,7 @@ export class TaskItemComponent {
      this.onDeleteTask.emit(tarefa);
    }
 
+   // Método chamado ao alterar o status de concluído da tarefa, que emite o evento para o componente pai
    onToggle(tarefa: Tarefa){
      this.onToggleConcluido.emit(tarefa);
    }

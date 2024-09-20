@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  // A propriedade 'title' é uma string que contém o título a ser exibido no componente de cabeçalho.
   title: string = 'Lista de tarefas';
-
 }

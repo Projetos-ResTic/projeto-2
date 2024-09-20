@@ -1,7 +1,10 @@
-
+    <!-- Condicional que verifica se 'mostrarAddTarefa' é verdadeiro 
+      Se for verdadeiro, renderiza o componente 'app-button' com o texto 'fechar' -->
+   
 @if (mostrarAddTarefa) {
     <app-button text="fechar" (btnClick)="AlteraVisualizacao(false)">Fechar</app-button>
 }@else {
+   <!-- Se 'mostrarAddTarefa' for falso, renderiza um outro botão 'Adicionar' -->
     <app-button text="Adicionar" mat-raised-button  (btnClick)="AlteraVisualizacao(true)"></app-button>
 }
 

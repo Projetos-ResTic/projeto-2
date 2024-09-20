@@ -16,7 +16,7 @@
       "id": "d909",
       "tarefa": "lavar roupa",
       "categoria": "casa",
-      "concluido": false
+      "concluido": true
     }
   ]
 }
